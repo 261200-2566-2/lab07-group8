@@ -16,9 +16,10 @@ public class Lab07 {
 
         System.out.println("Set contents: " + set);
 
-        set.remove(1);
-        set.remove(3);
+        set.clear();
         System.out.println("Set is empty: " + set.isEmpty());
 
+        set.add(4);
+        System.out.println("Set contents: " + set);
     }
 }
